@@ -69,7 +69,7 @@ return [
     'date_format' => 'F jS, Y',
 
     'charset' => 'UTF-8',
-    'timezone' => 'UTC',
+    'timezone' => 'Europe/Ljubljana',
     'protect' => [],
 
     'stache' => [
