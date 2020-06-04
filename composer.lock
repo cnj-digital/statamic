@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ecd10d61c623d605ceca5741d9999d4c",
+    "content-hash": "b24d613c6373854a3df291315daa70a6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -106,7 +106,7 @@
         },
         {
             "name": "cnj/seotamic",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cnj-digital/seotamic.git",
@@ -8131,7 +8131,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cnj/seotamic": 20,
         "statamic/cms": 10
     },
     "prefer-stable": true,
