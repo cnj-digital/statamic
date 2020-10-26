@@ -15,7 +15,7 @@ You can find more code snippets and common solutions to problems by visiting the
 ## Installation
 
 ```
-composer create-project cnj/statamic --stability=dev project-name
+composer create-project cnj/statamic project-name
 ```
 
 At the last prompt, select `Y`, to remove the included git files.
