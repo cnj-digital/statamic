@@ -1,11 +1,15 @@
-// tailwind.config.js
 module.exports = {
-    purge: [
-        './resources/**/*.html',
+    purge: {
+      content: [
+        './resources/**/*.antlers.html',
         './resources/**/*.blade.php',
-        './resources/**/*.vue',
-    ],
-    theme: {},
+        './content/**/*.md'
+      ]
+    },
+    important: true,
+    theme: {
+      extend: {},
+    },
     variants: {},
     plugins: [],
-};
+  }
