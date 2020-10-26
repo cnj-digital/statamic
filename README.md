@@ -23,6 +23,7 @@ At the last prompt, select `Y`, to remove the included git files.
 ### By default we have 1 user
 
 Email: info@cnj.si
+
 Password: password
 
 You can create additional users by running: (this requires a license)
