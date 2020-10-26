@@ -20,8 +20,12 @@ composer create-project cnj/statamic project-name
 
 At the last prompt, select `Y`, to remove the included git files.
 
-### Add a new user
+### By default we have 1 user
 
+Email: info@cnj.si
+Password: password
+
+You can create additional users by running: (this requires a license)
 ```
 php please make:user
 ```
