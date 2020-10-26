@@ -19,7 +19,7 @@ return [
             'name' => config('app.name'),
             'locale' => 'sl_SI',
             'url' => '/',
-        ]
+        ],
 
-    ]
+    ],
 ];
