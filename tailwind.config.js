@@ -6,7 +6,6 @@ module.exports = {
         './content/**/*.md'
       ]
     },
-    important: true,
     theme: {
       extend: {},
     },
