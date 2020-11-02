@@ -53,10 +53,16 @@ git init
 
 Add the appropriate remote GitHub repository
 
--   commond backend commands
--   frontend build commands
-
 ## Development
+### Password recovery emails
+By default on Statamic, editors with no user permissions can't change their own password. This is why we have to setup email sending for password recovery. By Default the Sendgrid driver is included with all the required configuration. Make sure to set the appropriate env options for the Sendgrid mailer to work:
+
+```
+...
+MAIL_MAILER=sendgrid
+SENDGRID_API_KEY="PASTE_API_KEY_HERE"
+...
+```
 
 ### Frontend
 
@@ -68,4 +74,4 @@ npm run watch
 
 ## Deployment
 
-WIP
+Follow the Forge guide on the wiki.
