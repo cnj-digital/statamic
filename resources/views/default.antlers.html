@@ -1,1 +1,7 @@
-{{ content }}
+<div class="flex flex-col space-y-8">
+    {{ replicator }}
+    <div>
+        {{ partial src="components/{type}" }}
+    </div>
+    {{ /replicator }}
+</div>

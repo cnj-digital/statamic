@@ -1,17 +1,18 @@
 <!doctype html>
 <html lang="{{ site:short_locale }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
-        <script src="{{ mix src='/js/site.js' }}"></script>
-        
-        {{ seotamic }}
-    </head>
-    <body class="bg-gray-200 font-sans leading-normal text-grey-800">
-        <div class="mx-auto px-2 h-screen flex items-center justify-center">
-            {{ template_content }}
-        </div>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+    <script src="{{ mix src='/js/site.js' }}"></script>
+
+    {{ seotamic }}
+</head>
+
+<body>
+    {{ template_content }}
+</body>
+
 </html>
