@@ -1,0 +1,17 @@
+title: Builder
+fields:
+  -
+    handle: replicator
+    field:
+      collapse: false
+      sets:
+        hero_sections_-_simple_centered:
+          display: 'Hero Sections - Simple centered'
+          fields: {  }
+        hero_sections_-_split_with_navbar:
+          display: 'Hero Sections - Split with navbar'
+          fields: {  }
+      display: Replicator
+      type: replicator
+      icon: replicator
+      listable: hidden
